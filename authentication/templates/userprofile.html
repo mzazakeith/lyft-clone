@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+    <div class="container-fluid">
+
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h1>Car Details</h1>
+                <p> Car Capacity : {{ car.car_capacity }}</p>
+                <p>  Car color :{{ car.car_color }}</p>
+                <p>Car number plate :{{ car.car_number_plate }}</p>
+            </div>
+            <div class="col-md-4 text-center">
+
+                <h1>Driver Details</h1>
+
+                <img class="img-fluid profile-pic" src="{{ profile.profile_pic.cdn_url }}" alt="">
+                <br>
+                <br>
+                <p>Username: {{ profile.user.username  }}</p>
+                <p>Gender: {{ profile.gender  }}</p>
+                <p>Contact: {{ profile.phone_number }}</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h1>Rate</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    {% bootstrap_form form %}
+                    <input type="submit" class="btn btn-primary" value="Rate">
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

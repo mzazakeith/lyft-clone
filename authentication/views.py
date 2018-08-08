@@ -49,6 +49,39 @@ def landing(request):
 
 
 @login_required
+def home(request):
+    locale=driver_location.objects.all()
+    cars = Car.objects.all()
+    current_user = request.user
+    status = request.user.is_passenger
+    if status:
+        profile = PassengerProfile.objects.get(user=current_user.id)
+        location = pass_location.objects.get(user=current_user.id)
+        if request.method == 'POST':
+            form = PickUpLocationForm(request.POST, request.FILES,instance=pass_location.objects.get(user=request.user.id))
+            if form.is_valid():
+                location = form.save(commit=False)
+                location.user = current_user
+                location.save()
+                return redirect("/home")
+        else:
+            form = PickUpLocationForm()
+    else:
+        profile = DriverProfile.objects.get(user=current_user.id)
+        location = driver_location.objects.get(user=current_user.id)
+        if request.method == 'POST':
+            form = LocationForm(request.POST, request.FILES,instance=driver_location.objects.get(user=request.user.id))
+            if form.is_valid():
+                location = form.save(commit=False)
+                location.user = current_user
+                location.save()
+                return redirect("/home")
+        else:
+            form = LocationForm()
+    return render(request, "home.html", {"profile": profile, "user": current_user, "form": form, "location":location,"locale":locale,"cars":cars})
+
+
+@login_required
 def userprofile(request, user_id):
     users = User.objects.get(id=user_id)
     profile = DriverProfile.objects.get(user=users)

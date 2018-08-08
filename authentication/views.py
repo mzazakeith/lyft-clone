@@ -32,3 +32,20 @@ def landing(request):
     return render(request, 'index.html')
 
 
+@login_required
+def userprofile(request, user_id):
+    users = User.objects.get(id=user_id)
+    profile = DriverProfile.objects.get(user=users)
+    car = Car.objects.get(driver=users)
+    if request.method == 'POST':
+        form = ReviewDriverForm(request.POST, request.FILES)
+        if form.is_valid():
+            profile = form.save(commit=False)
+            profile.user = users
+            profile.save()
+            return redirect("/userprofile/"+user_id)
+    else:
+        form = ReviewDriverForm()
+    return render(request, 'userprofile.html', {"user": users, "profile": profile, "car":car, "form": form})
+
+

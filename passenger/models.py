@@ -17,3 +17,8 @@ class PassengerProfile(models.Model):
     phone_number = models.PositiveIntegerField()
     National_id = models.PositiveIntegerField()
     user = models.ForeignKey(User)
+
+
+class pass_location(models.Model):
+    pickup_location = models.CharField(max_length=255, default=None)
+    user =  models.ForeignKey(User)

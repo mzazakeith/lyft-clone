@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3334521-1559-4a56-a419-bfc55c74a4f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyft/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lyft/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lyft/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lyft/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Quotogram/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Quotogram/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Quotogram/README.md" beforeDir="false" />
@@ -151,31 +156,35 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.37" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
+          <entry key="Procfile" value="1" />
           <entry key="css" value="11" />
+          <entry key="env" value="1" />
           <entry key="html" value="68" />
           <entry key="md" value="1" />
           <entry key="pstat" value="2" />
-          <entry key="py" value="177" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="179" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key=".env file" value="1" />
           <entry key="CSS" value="11" />
           <entry key="HTML" value="68" />
-          <entry key="Hoi4 file" value="1" />
+          <entry key="Hoi4 file" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Profiler Session" value="2" />
-          <entry key="Python" value="177" />
+          <entry key="Python" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -184,7 +193,7 @@
           <entry key="css" value="560" />
           <entry key="html" value="3279" />
           <entry key="md" value="294" />
-          <entry key="py" value="3322" />
+          <entry key="py" value="3329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -193,79 +202,50 @@
           <entry key="HTML" value="3279" />
           <entry key="Markdown" value="294" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="3322" />
+          <entry key="Python" value="3329" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passenger/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passenger/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authentication/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="89" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authentication/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="99" selection-start-line="83" selection-start-column="1" selection-end-line="99" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/authentication/urls.py">
+        <entry file="file://$PROJECT_DIR$/lyft/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passenger/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" selection-start-line="3" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passenger/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="153">
+              <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="22" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#306#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lyft/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="e#221#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -278,13 +258,16 @@
       <find>smart</find>
       <find>unicode</find>
       <find>geos_version_info</find>
+      <find>base</find>
+      <find>static</find>
+      <find>staticfiles_st</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -317,7 +300,6 @@
         <option value="$PROJECT_DIR$/driver/admin.py" />
         <option value="$PROJECT_DIR$/authentication/templates/base.html" />
         <option value="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django/contrib/gis/geos/libgeos.py" />
-        <option value="$PROJECT_DIR$/lyft/settings.py" />
         <option value="$PROJECT_DIR$/authentication/urls.py" />
         <option value="$PROJECT_DIR$/authentication/templates/home.html" />
         <option value="$PROJECT_DIR$/authentication/forms.py" />
@@ -331,6 +313,10 @@
         <option value="$PROJECT_DIR$/authentication/tests.py" />
         <option value="$PROJECT_DIR$/authentication/templates/userprofile.html" />
         <option value="$PROJECT_DIR$/passenger/models.py" />
+        <option value="$PROJECT_DIR$/lyft/wsgi.py" />
+        <option value="$PROJECT_DIR$/lyft/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -340,10 +326,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="663" />
-    <option name="height" value="741" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="683" />
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -353,6 +340,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -363,19 +351,12 @@
             <path>
               <item name="Lyft-Clone" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lyft-Clone" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lyft-Clone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lyft-Clone" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="lyft" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,10 +425,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="683" y="25" width="683" height="743" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2780303" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" weight="0.5855573" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.26969698" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -461,7 +442,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.42414355" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952693" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -474,12 +455,12 @@
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.27424243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" weight="0.5855573" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.26969698" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32952693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,14 +468,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32952693" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32952693" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.22675367" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952693" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32954547" />
@@ -508,21 +489,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/passenger/migrations/urls.py" />
-    <entry file="file://$PROJECT_DIR$/authentication/templates/profile/passenger.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/profile/driver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="85" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site-packages/geoposition/fields.py" />
     <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site-packages/geoposition/__init__.py" />
     <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/__future__.py">
@@ -553,22 +519,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/driver/migrations/0002_pointofinterest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/authentication/static/css/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -729,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lyft/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="124" selection-start-line="124" selection-end-line="124" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authentication/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -771,6 +720,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="89" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/passenger/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -788,10 +744,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/authentication/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="89" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="89" />
+        <state relative-caret-position="456">
+          <caret line="99" selection-start-line="83" selection-start-column="1" selection-end-line="99" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -811,20 +777,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/views.py">
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lyft/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="99" selection-start-line="83" selection-start-column="1" selection-end-line="99" />
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/urls.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="76" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lyft/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="22" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,3 +1,10 @@
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect
+
+from passenger.forms import CreatePassengerProfileForm
+from passenger.models import pass_location
+
+
 @login_required
 def create_passenger_profile(request):
     current_user = request.user

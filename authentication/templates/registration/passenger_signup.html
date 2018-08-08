@@ -1,0 +1,27 @@
+{% extends 'registration/base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-default">
+                    <div class="card-body">
+
+                        <form method="post">
+                            {% csrf_token %}
+                            {% bootstrap_form form %}
+                            <button class="btn btn-primary" type="submit">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="{% static 'images/passenger.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+{% endblock %}

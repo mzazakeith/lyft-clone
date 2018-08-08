@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3334521-1559-4a56-a419-bfc55c74a4f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/assets/bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/assets/bg2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/assets/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/assets/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/fontawesome-webfont.674f50d287a8c48dc19b.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/fontawesome-webfont.912ec66d7572ff821749.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/fontawesome-webfont.b06871f281fee6b241d6.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/fontawesome-webfont.fee66e712a8a08eef580.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/main.2bd9a73ae65e2b8b1239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/polyfills.a8e1fcb1caf2b6c7cdae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/runtime.a66f828dca56eeb90e02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/dist/Quotogram/styles.ec54c2891bb9a46ff3d9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/date-count.pipe.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/date-count.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-content/quote-content.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-content/quote-content.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-content/quote-content.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-content/quote-content.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-form/quote-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-form/quote-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-form/quote-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote-form/quote-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote/quote.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote/quote.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote/quote.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/app/quote/quote.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/assets/bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/assets/bg2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/assets/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/assets/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Quotogram/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app-routing.module.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/navbar/navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/repos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/repos/repos.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/repos/repos.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/repos/repos.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/repos/repos.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/users/users.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/users/users.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/users/users.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/app/users/users.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github-search/tslint.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1953139295">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="LICENSE" value="1" />
+          <entry key="css" value="11" />
+          <entry key="html" value="68" />
+          <entry key="md" value="1" />
+          <entry key="pstat" value="2" />
+          <entry key="py" value="177" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="68" />
+          <entry key="Hoi4 file" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Profiler Session" value="2" />
+          <entry key="Python" value="177" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="LICENSE" value="18" />
+          <entry key="css" value="560" />
+          <entry key="html" value="3279" />
+          <entry key="md" value="294" />
+          <entry key="py" value="3322" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="560" />
+          <entry key="HTML" value="3279" />
+          <entry key="Markdown" value="294" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="3322" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passenger/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passenger/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authentication/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="89" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authentication/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="99" selection-start-line="83" selection-start-column="1" selection-end-line="99" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authentication/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passenger/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" selection-start-line="3" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passenger/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>smart</find>
+      <find>unicode</find>
+      <find>geos_version_info</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/authentication/templates/registration/signup.html" />
+        <option value="$PROJECT_DIR$/authentication/templates/profile/driver.html" />
+        <option value="$PROJECT_DIR$/authentication/templates/profile/base.html" />
+        <option value="$PROJECT_DIR$/passenger/urls.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/profile/passenger.html" />
+        <option value="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/geoposition/fields.py" />
+        <option value="$PROJECT_DIR$/virtual/lib/python3.6/site.py" />
+        <option value="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/geoposition/__init__.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/profile/car.html" />
+        <option value="$PROJECT_DIR$/driver/migrations/0002_pointofinterest.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/index.html" />
+        <option value="$PROJECT_DIR$/authentication/static/css/navbar.css" />
+        <option value="$PROJECT_DIR$/authentication/templates/registration/base.html" />
+        <option value="$PROJECT_DIR$/authentication/static/css/registration.css" />
+        <option value="$PROJECT_DIR$/authentication/static/css/login.css" />
+        <option value="$PROJECT_DIR$/lyft/urls.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/authentication/templates/registration/driver_signup.html" />
+        <option value="$PROJECT_DIR$/authentication/templates/registration/passenger_signup.html" />
+        <option value="$PROJECT_DIR$/passenger/forms.py" />
+        <option value="$PROJECT_DIR$/authentication/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/passenger/admin.py" />
+        <option value="$PROJECT_DIR$/passenger/views.py" />
+        <option value="$PROJECT_DIR$/driver/urls.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/driver/admin.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/base.html" />
+        <option value="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django/contrib/gis/geos/libgeos.py" />
+        <option value="$PROJECT_DIR$/lyft/settings.py" />
+        <option value="$PROJECT_DIR$/authentication/urls.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/home.html" />
+        <option value="$PROJECT_DIR$/authentication/forms.py" />
+        <option value="$PROJECT_DIR$/authentication/models.py" />
+        <option value="$PROJECT_DIR$/driver/forms.py" />
+        <option value="$PROJECT_DIR$/driver/views.py" />
+        <option value="$PROJECT_DIR$/authentication/views.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/driver/models.py" />
+        <option value="$PROJECT_DIR$/authentication/tests.py" />
+        <option value="$PROJECT_DIR$/authentication/templates/userprofile.html" />
+        <option value="$PROJECT_DIR$/passenger/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="663" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lyft-Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lyft-Clone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lyft-Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lyft-Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lyft-Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lyft-Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/mzaza/Documents/moringa-school-projects/core/Django/Lyft-Clone/lyft/settings.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authentication/templates/registration" />
+      <recent name="$PROJECT_DIR$/authentication/templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lyft-Clone" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Lyft-Clone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="lyft.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3334521-1559-4a56-a419-bfc55c74a4f3" name="Default Changelist" comment="" />
+      <created>1533285576619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533285576619</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2780303" />
+      <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.26969698" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32952693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952693" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32952693" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32954547" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.27424243" />
+      <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.26969698" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32952693" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32954547" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/passenger/migrations/urls.py" />
+    <entry file="file://$PROJECT_DIR$/authentication/templates/profile/passenger.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/profile/driver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="85" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site-packages/geoposition/fields.py" />
+    <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site-packages/geoposition/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/__future__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/profile/car.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/profile/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/migrations/0002_pointofinterest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lyft/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/static/css/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/static/css/registration.css" />
+    <entry file="file://$PROJECT_DIR$/authentication/templates/registration/passenger_signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lyft/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site-packages/djgeojson/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtual/lib/python3.6/site-packages/django/contrib/gis/geos/libgeos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="89" lean-forward="true" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1110">
+            <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/userprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lyft/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="124" selection-start-line="124" selection-end-line="124" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/registration/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="73" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/registration/driver_signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="89" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" selection-start-line="3" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="99" selection-start-line="83" selection-start-column="1" selection-end-line="99" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

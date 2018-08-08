@@ -6,6 +6,21 @@ from driver.models import driver_location
 
 
 @login_required
+def submit_car(request):
+    current_user = request.user
+    if request.method == 'POST':
+        form = SubmitCarForm(request.POST, request.FILES)
+        if form.is_valid():
+            car = form.save(commit=False)
+            car.driver = current_user
+            car.save()
+            return redirect('/')
+    else:
+        form = SubmitCarForm()
+    return render(request, 'profile/car.html', {"form": form, "user": current_user})
+
+
+@login_required
 def create_driver_profile(request):
     current_user = request.user
     if request.method == 'POST':

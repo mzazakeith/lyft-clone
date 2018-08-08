@@ -34,3 +34,12 @@ class Car(models.Model):
         id.delete()
 
 
+class driver_location(models.Model):
+    current_location = models.CharField(max_length=255)
+    destination = models.CharField(max_length=255)
+    user = models.ForeignKey(User)
+
+    @classmethod
+    def update_locationr(location):
+        location.update()
+

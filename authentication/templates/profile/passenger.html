@@ -1,0 +1,23 @@
+{%extends "profile/base.html"%}
+{% load bootstrap4 %}
+
+{% block content %}
+    {% if user.is_passenger == True %}
+        <div class="container">
+            <h1>Create your profile</h1>
+            <br>
+            <form  action="{%url 'new-passenger-profile'%}" method="post" enctype="multipart/form-data">
+                {%csrf_token%}
+                <h5> Profile photo</h5>
+                {% bootstrap_form form%}
+                <input type="submit" class="btn btn-primary" value="Create">
+            </form>
+        </div>
+        {% block scripts %}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            {% bootstrap_javascript %}
+        {% endblock %}
+    {% endif %}
+{%endblock%}
+
+{

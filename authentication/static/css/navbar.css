@@ -1,0 +1,14 @@
+.navbar-light{
+    background-color: transparent !important;
+}
+
+.nav-link{
+    color:  #002caf !important;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    color:  #002caf !important;
+    font-weight: bold;
+    font-size: 6vh;
+}

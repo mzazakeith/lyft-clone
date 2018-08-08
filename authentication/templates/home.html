@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{#{% load geojson_tags %}#}
+{% load leaflet_tags %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-md-4 profile">
+                <img class="img-fluid profile-pic" src="{{ profile.profile_pic.cdn_url }}" alt="">
+                <br>
+                <br>
+                <p>Username: {{ user.username }}</p>
+                <p>Gender: {{ profile.gender }}</p>
+                <p>Phone number:{{ profile.phone_number }}</p>
+                {% if user.is_passenger %}
+                    <p>National ID :{{ profile.National_id }}</p>
+                {% endif %}
+            </div>
+            <div class="col-md-4 pick_up">
+                {% if user.is_passenger %}
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {% bootstrap_form form %}
+                    </form>
+
+                    Pick up location : {{ location.pickup_location }}
+
+                    {% leaflet_map "yourmap" %}
+
+                {% endif %}
+                {% if user.is_driver %}
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {% bootstrap_form form %}
+                        <input type="submit" class="btn btn-primary" value="New Journey">
+                    </form>
+
+                    <p>Current location : {{ location.current_location }}</p>
+                    <p>Destination : {{ location.destination }}</p>
+                {% endif %}
+            </div>
+            <div class="col-md-4 drivers">
+                {% if user.is_passenger %}
+                    <h1>Drivers near you</h1>
+                    {% for loc in locale %}
+                        {% if loc.current_location  == location.pickup_location %}
+                            <a href="{% url 'profile' user_id=loc.user.id %}">{{ loc.user.username }}</a> <button class="btn btn-primary btn-sm">REQUEST</button>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% if user.is_driver %}
+                    <h1>Requests</h1>
+
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+
+
+

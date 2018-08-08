@@ -1,3 +1,19 @@
+from django.contrib.auth.decorators import login_required
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
+
+from driver.forms import LocationForm, ReviewDriverForm
+from driver.views import create_driver_profile
+from passenger.forms import PickUpLocationForm
+from passenger.views import create_passenger_profile
+from .forms import DriverSignupForm, PassengerSignupForm
+from django.contrib.auth import get_user_model
+from driver.models import DriverProfile, driver_location, Car, DriverReview
+from passenger.models import PassengerProfile, pass_location
+# from django.contrib.auth.models import User
+User = get_user_model()
+
+
 def driver_signup(request):
     if request.method == 'POST':
         form = DriverSignupForm(request.POST)

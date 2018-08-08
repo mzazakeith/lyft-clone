@@ -1,0 +1,48 @@
+.land{
+    height:370px;
+    width:460px;
+ }
+
+body{
+    background-color:#4ae0e8;
+}
+
+.land-text{
+    color: #002caf;
+    font-size: 11vh;
+    font-weight: bold;
+    /*text-align: right;*/
+}
+
+.land-text-div{
+    padding-left: 5%;
+}
+
+.line{
+    width:95%;
+    color: #002caf !important;
+}
+
+.land-row{
+    padding-top: 5%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height:152px;
+    width:152px;
+}
+
+.profile{
+    padding-top:4%;
+    text-align: center;
+}
+
+
+.pick_up{
+    padding-top: 2%;
+}
+
+.drivers{
+    padding-top:4%;
+}

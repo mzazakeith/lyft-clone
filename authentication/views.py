@@ -27,3 +27,8 @@ def passenger_signup(request):
         form = PassengerSignupForm()
     return render(request, 'registration/passenger_signup.html', {'form': form})
 
+
+def landing(request):
+    return render(request, 'index.html')
+
+

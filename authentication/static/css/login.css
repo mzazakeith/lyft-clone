@@ -1,0 +1,12 @@
+.push{
+    padding-top: 10% ;
+}
+
+.form-text{
+    display: none;
+}
+.container-fluid{
+    padding-top:2% ;
+    background-color:#4ae0e8;
+    height: 100vh;
+}

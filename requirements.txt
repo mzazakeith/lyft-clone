@@ -7,7 +7,7 @@ django-bootstrap4==0.0.6
 django-geojson==2.11.0
 django-heroku==0.3.1
 django-leaflet==0.24.0
-django-registration==2.4.1
+django-registration==3.1.2
 gunicorn==19.9.0
 idna==2.7
 jsonfield==2.0.2
